@@ -1,0 +1,619 @@
+[
+  {
+    "printed_num": 1,
+    "title": "Što je kolnik?",
+    "image": null,
+    "answers": [
+      "dio cestovne površine namijenjen u prvom redu za promet vozila, s jednom prometnom trakom ili više prometnih traka",
+      "dio cestovne površine namijenjen u prvom redu za promet pješaka, s jednom pješačkom stazom ili više pješačkih staza"
+    ],
+    "n": 1,
+    "solution_raw": "1",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "printed_num": 2,
+    "title": "Koliko kolničkih traka ima cesta u situaciji kao na slici?",
+    "image": "image2.png",
+    "answers": [
+      "jednu",
+      "dvije",
+      "tri"
+    ],
+    "n": 2,
+    "solution_raw": "2",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      1
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Na čemu se mora temeljiti ponašanje sudionika u prometu?",
+    "image": null,
+    "answers": [
+      "na međusobnom uvažavanju",
+      "na agresivnom ponašanju",
+      "na partnerskom odnosu"
+    ],
+    "n": 3,
+    "solution_raw": "13",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0,
+      2
+    ]
+  },
+  {
+    "printed_num": 4,
+    "title": "Kojom se cestom kreće vozilo u situaciji kao na slici?",
+    "image": "image5.png",
+    "answers": [
+      "brzom cestom",
+      "autocestom",
+      "cestom namijenjenom isključivo za promet motornih vozila"
+    ],
+    "n": 4,
+    "solution_raw": "2",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      1
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Što može povećati pozornost vozača za vrijeme vožnje?",
+    "image": null,
+    "answers": [
+      "koncentracija na vožnju",
+      "predviđanje i očekivanje opasnosti",
+      "razgovor mobitelom"
+    ],
+    "n": 5,
+    "solution_raw": "12",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Čime je određeno značenje prometnog znaka?",
+    "image": null,
+    "answers": [
+      "položajem znaka uz cestu",
+      "oblikom prometnog znaka",
+      "simbolom na prometnom znaku"
+    ],
+    "n": 6,
+    "solution_raw": "23",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Gdje se na cesti postavljaju prometni znakovi izričitih naredaba?",
+    "image": null,
+    "answers": [
+      "neposredno na mjestima od kojih počinje obveza pridržavanja naredbe izražene znakom",
+      "150 do 250 metara prije mjesta od kojeg počinje obveza pridržavanja naredbe izražene znakom"
+    ],
+    "n": 7,
+    "solution_raw": "1",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "printed_num": 13,
+    "title": "Pomoću čega vozač procjenjuje brzinu svog vozila?",
+    "image": "image7.png",
+    "answers": [
+      "pomoću brzinomjera u vozilu",
+      "pomoću vizualnih i slušnih informacija",
+      "pomoću kretanja drugih vozila"
+    ],
+    "n": 8,
+    "solution_raw": "1",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Kojom prometnom površinom se kreću pješaci na slici?",
+    "image": "image8.jpeg",
+    "answers": [
+      "pješačkom stazom",
+      "obilježenim pješačkim prijelazom",
+      "nogostupom"
+    ],
+    "n": 9,
+    "solution_raw": "23",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Što mora učiniti vozač prije započinjanja neke radnje vozilom u prometu?",
+    "image": null,
+    "answers": [
+      "uvjeriti se da radnju može obaviti bez opasnosti za druge sudionike u prometu",
+      "uvjeriti se da radnju može obaviti uz što manji razmak između vozila"
+    ],
+    "n": 10,
+    "solution_raw": "1",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Smijete li se svojim vozilom kretati srednjom prometnom trakom na cesti u situaciji kao na slici?",
+    "image": "image10.jpeg",
+    "answers": [
+      "smijete radi pretjecanja vozila koja se kreću sporije",
+      "smijete kada se mora zaustaviti zbog kvara na vozilu",
+      "ne smijete, jer je ta traka namijenjena samo za spora vozila"
+    ],
+    "n": 11,
+    "solution_raw": "1",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Kako ćete postupiti ako je na semaforu upaljeno žuto trepteće svjetlo u situaciji kao na slici?",
+    "image": "image12.jpeg",
+    "answers": [
+      "propustiti motocikl",
+      "propustiti autobus",
+      "voziti prije autobusa"
+    ],
+    "n": 12,
+    "solution_raw": "3",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      2
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Zbog čega morate, u situaciji kao na slici, propustiti motocikl?",
+    "image": "image15.jpeg",
+    "answers": [
+      "zbog toga što nailazim na cestu s prednošću prolaska",
+      "zbog toga što nailazite s lijeve strane",
+      "zbog toga što zadržavate smjer vožnje"
+    ],
+    "n": 13,
+    "solution_raw": "12",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "printed_num": 24,
+    "title": "S koje se strane, u pravilu, obavlja pretjecanje?",
+    "image": null,
+    "answers": [
+      "s lijeve strane",
+      "s desne strane"
+    ],
+    "n": 14,
+    "solution_raw": "3",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      2
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Što se ne smije činiti vozilom ako se vozi cestom na kojoj postoje najmanje dvije prometne trake za promet u istom smjeru i na kojima su kolone vozila u situaciji kao na slici?",
+    "image": "image18.png",
+    "answers": [
+      "kretati se lijevom prometnom trakom",
+      "kretati se desnom prometnom trakom",
+      "prelaziti vozilom iz trake u traku (voziti slalom)"
+    ],
+    "n": 15,
+    "solution_raw": "1",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Kako ćete postupiti nakon ovoga prometnog znaka?",
+    "image": "image1.jpeg",
+    "answers": [
+      "voziti ravno ili udesno",
+      "skrenuti ulijevo",
+      "voziti samo ravno"
+    ],
+    "n": 16,
+    "solution_raw": "1",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "printed_num": 9,
+    "title": "O čemu vozača obavješćuje znak na slici?",
+    "image": "image3.jpeg",
+    "answers": [
+      "pružanju cestovnih smjerova",
+      "udaljenosti do određenog mjesta",
+      "potvrdi smjera kretanja nakon prolaska raskrižja"
+    ],
+    "n": 17,
+    "solution_raw": "12",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Kako se najavljuje približavanje vlaka svjetlosnim znakom na slici?",
+    "image": "image4.jpeg",
+    "answers": [
+      "izmjenično paljenjem dvaju crvenih svjetala",
+      "stalno upaljenim crvenim svjetlima",
+      "stalno upaljenim crvenim svjetlima i zvučnim znakovima"
+    ],
+    "n": 18,
+    "solution_raw": "1",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Što označuje kosa crta na kolniku u situaciji kao na slici?",
+    "image": "image6.png",
+    "answers": [
+      "mjesto otvaranja prometne trake za vozila javnog prijevoza putnika",
+      "mjesto otvaranja prometne trake za zaustavljanje vozila u nuždi",
+      "mjesto otvaranja ulazne trake na brzoj cesti"
+    ],
+    "n": 19,
+    "solution_raw": "2",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      1
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Što vozaču omogućuje prepoznavanje i izbjegavanje mogućih opasnih situacija tijekom vožnje?",
+    "image": null,
+    "answers": [
+      "vožnja sa smanjenom pozornošću",
+      "vožnja maksimalno dopuštenom brzinom",
+      "pravodobno uočavanje prometne situacije"
+    ],
+    "n": 20,
+    "solution_raw": "23",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Kako se morate ponašati u susretu s vozilima s pravom prednosti prolaska?",
+    "image": null,
+    "answers": [
+      "smanjiti brzinu i povećati pozornost prema tim vozilima",
+      "omogućiti prolazak tim vozilima",
+      "nastaviti vožnju povećanom brzinom"
+    ],
+    "n": 21,
+    "solution_raw": "1",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Koliko iznosi najveća dopuštena brzina kretanja vozila koje vuče drugo neispravno vozilo?",
+    "image": null,
+    "answers": [
+      "40 km na sat",
+      "50 km na sat",
+      "60 km na sat"
+    ],
+    "n": 22,
+    "solution_raw": "13",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0,
+      2
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Kako ćete postupiti kada svojim vozilom ulazite sa ceste bez suvremenoga kolničkog zastora na cestu sa suvremenim kolničkim zastorom i kada ta cesta nije prometnim znakom označena kao cesta s prednošću prolaska?",
+    "image": null,
+    "answers": [
+      "propustiti isključivo vozila koja nailaze s desne strane",
+      "propustiti sva vozila koja se kreću tom cestom",
+      "propustiti vozila koja dolaze isključivo iz suprotnog smjera"
+    ],
+    "n": 23,
+    "solution_raw": "1",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Kako ćete postupiti u situaciji kao na slici?",
+    "image": "image9.jpeg",
+    "answers": [
+      "propustiti crni automobil",
+      "propustiti crveni automobil",
+      "voziti prije crnog automobila"
+    ],
+    "n": 24,
+    "solution_raw": "1",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "printed_num": 21,
+    "title": "Zbog čega morate, u situaciji kao na slici, propustiti vozilo koje nailazi iz suprotnog smjera?",
+    "image": "image11.jpeg",
+    "answers": [
+      "zbog toga što zadržava smjer kretanja",
+      "zbog toga što nailazi cestom s prednošću prolaska"
+    ],
+    "n": 25,
+    "solution_raw": "3",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      2
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Što se označuje svjetlosnim znakom na slici?",
+    "image": "image13.jpeg",
+    "answers": [
+      "mjesto na kojemu se obavljaju radovi",
+      "prijelaz ceste preko željezničke pruge",
+      "raskrižje na kojemu se prometom upravlja prometnim svjetlima"
+    ],
+    "n": 26,
+    "solution_raw": "2",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      1
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Što označuje žaruljica na instrument ploči sa simbolom kao na slici?",
+    "image": "image14.jpeg",
+    "answers": [
+      "temperaturu rashladne tekućine",
+      "tlak motornog ulja",
+      "punjenje akumulatora"
+    ],
+    "n": 27,
+    "solution_raw": "2",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      1
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Što označuje žaruljica na instrument ploči sa simbolom kao na slici?",
+    "image": "image16.png",
+    "answers": [
+      "uključena duga svjetla",
+      "uključena prednja svjetla za maglu",
+      "uključena kratka svjetla za maglu"
+    ],
+    "n": 28,
+    "solution_raw": "2",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      1
+    ]
+  },
+  {
+    "printed_num": 29,
+    "title": "Kolika je najmanja dopuštena dubina utora guma?",
+    "image": null,
+    "answers": [
+      "Milimetri"
+    ],
+    "n": 29,
+    "solution_raw": "1.6 mm",
+    "type": "NUMBER",
+    "correct_value": "1.6",
+    "unit": "mm"
+  },
+  {
+    "printed_num": null,
+    "title": "Koja su bitna obilježja vožnje u gradu?",
+    "image": "image17.jpeg",
+    "answers": [
+      "mala količina ispušnih plinova od vozila",
+      "velik broj prometnih znakova",
+      "različita struktura vozila"
+    ],
+    "n": 30,
+    "solution_raw": "23",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Kako vozač, u situaciji kao na slici, može skrenuti udesno?",
+    "image": "image19.png",
+    "answers": [
+      "vozeći prometnom trakom uz desni rub kolnika",
+      "prestrojavanjem u srednju prometnu traku i iz nje obaviti skretanje",
+      "prestrojavanjem u krajnju lijevu prometnu traku i iz nje obaviti skretanje"
+    ],
+    "n": 31,
+    "solution_raw": "12",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Na kojim se mjestima u prometu na cesti izvan naselja vozač ne smije vozilom zaustaviti?",
+    "image": "image20.jpeg",
+    "answers": [
+      "na mjestima gdje bi položajem svoga vozila ugrožavao odvijanje prometa",
+      "na mjestima gdje bi položajem svoga vozila ometao odvijanje prometa",
+      "na mjestima gdje bi položajem svoga vozila poboljšao sigurnost prometa"
+    ],
+    "n": 32,
+    "solution_raw": "13",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0,
+      2
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Što karakterizira vožnju izvan naselja?",
+    "image": null,
+    "answers": [
+      "vožnja u kolonama i brojna pretjecanja",
+      "brojna i različita raskrižja",
+      "veće brzine vožnje"
+    ],
+    "n": 33,
+    "solution_raw": "12",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Koji su najčešći uzroci događanja prometnih nesreća?",
+    "image": "image21.jpeg",
+    "answers": [
+      "nedostatno vozačko iskustvo",
+      "vožnja neprilagođenom brzinom",
+      "vožnja pod utjecajem alkohola i droge",
+      "vožnja brzinom prilagođenom uvjetima vožnje"
+    ],
+    "n": 34,
+    "solution_raw": "2",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      1
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Koji su najčešći razlozi događanja prometnih nesreća nalijetanjem na vozilo koje na cesti usporava i skreće?",
+    "image": null,
+    "answers": [
+      "pogrešna procjena brzine vozila koje usporava",
+      "vožnja na premalom razmaku iza vozila",
+      "vožnja na prevelikom razmaku iza vozila"
+    ],
+    "n": 35,
+    "solution_raw": "12",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Što je dužan učiniti vozač vozila koje se kreće brzinom manjom od najveće dopuštene na cesti ili dijelu ceste, pa se zbog toga iza njega stvori kolona vozila?",
+    "image": "image22.png",
+    "answers": [
+      "gledati kako ga vozila pretječu",
+      "na prvom pogodnom mjestu isključiti se iz prometa i propustiti kolonu",
+      "voziti što dulje sporo, kako bi se stvorila veća kolona"
+    ],
+    "n": 36,
+    "solution_raw": "123",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Kako ćete postupiti u ovoj situaciji?",
+    "image": "image23.png",
+    "answers": [
+      "pogled usmjeriti prema sredini kolnika",
+      "pogled usmjeriti prema desnom rubu kolnika",
+      "smanjiti brzinu vožnje"
+    ],
+    "n": 37,
+    "solution_raw": "23",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "printed_num": null,
+    "title": "Vozite po magli. Koja svjetla za osvjetljavanje ceste morate koristiti?",
+    "image": null,
+    "answers": [
+      "svjetla za maglu ili kratka svjetla",
+      "prednja pozicijska svjetla",
+      "duga svjetla"
+    ],
+    "n": 38,
+    "solution_raw": "1",
+    "type": "CHECKBOX",
+    "correct_indices": [
+      0
+    ]
+  }
+]

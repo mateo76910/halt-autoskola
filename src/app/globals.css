@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #080808;
+  --foreground: #ffffff;
+}
+
+body {
+  background: var(--background);
+  font-family: var(--font-nunito), Helvetica, sans-serif;
+  color: var(--foreground);
+}
+
+.text {
+  font-size: clamp(16px, 2vw, 60px);
+}
+
+.bg-radial-top {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #1cbb8b 0%,
+    rgba(28, 187, 139, 0.815888) 56.04%,
+    rgba(28, 187, 139, 0) 100%
+  );
+  background-size: 150% 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  transform: translateY(-93%);
+  overflow: hidden;
+}
+
+.bg-radial-bottom {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #1cbb8b 0%,
+    rgba(28, 187, 139, 0.815888) 56.04%,
+    rgba(28, 187, 139, 0) 100%
+  );
+  background-size: 150% 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  transform: translateY(92%);
+  overflow: hidden;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .bg-radial-bottom {
+    transform: translateY(80%);
+  }
+}
+
+/* Animated form field underline label */
+.field-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  color: #9e9eac;
+  font-family: var(--font-bebas), sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+.field-input:focus + .field-label,
+.field-input:not(:placeholder-shown) + .field-label {
+  transform: translateY(-1.5rem);
+  color: #3f3f48;
+}
