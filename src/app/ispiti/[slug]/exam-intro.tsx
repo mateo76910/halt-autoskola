@@ -12,13 +12,16 @@ import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { SectionLabel } from "@/components/ui/section-label";
 import { QuizRunner } from "@/components/quiz/quiz-runner";
-import type { Exam } from "@/types/exam";
+import type { Exam, ValidationMode } from "@/types/exam";
 
 export function ExamIntro({ exam }: { exam: Exam }) {
   const [started, setStarted] = useState(false);
+  const [validationMode, setValidationMode] = useState<ValidationMode>(
+    exam.validationMode,
+  );
 
   if (started) {
-    return <QuizRunner exam={exam} />;
+    return <QuizRunner exam={exam} validationModeOverride={validationMode} />;
   }
 
   return (
@@ -47,7 +50,7 @@ export function ExamIntro({ exam }: { exam: Exam }) {
           <Info
             icon={Zap}
             label="Provjera"
-            value={exam.validationMode === "instant" ? "Trenutna" : "Na kraju"}
+            value={validationMode === "instant" ? "Trenutna" : "Na kraju"}
           />
         </div>
 
@@ -66,11 +69,31 @@ export function ExamIntro({ exam }: { exam: Exam }) {
                 Eliminacijska pitanja moraš odgovoriti točno za prolaz.
               </li>
               <li>
-                {exam.validationMode === "instant"
+                {validationMode === "instant"
                   ? "Točnost vidiš odmah nakon provjere svakog pitanja."
                   : "Točne odgovore vidiš tek po završetku ispita."}
               </li>
             </ul>
+          </div>
+        </div>
+
+        <div className="mt-10">
+          <p className="text-xs uppercase tracking-wider text-white-00">
+            Način provjere
+          </p>
+          <div className="mt-3 inline-flex rounded-md border border-black-400 bg-black-500/30 p-1">
+            <ModeButton
+              active={validationMode === "instant"}
+              onClick={() => setValidationMode("instant")}
+              label="Provjeri odmah"
+              hint="Točnost nakon svakog pitanja"
+            />
+            <ModeButton
+              active={validationMode === "end"}
+              onClick={() => setValidationMode("end")}
+              label="Provjeri na kraju"
+              hint="Rezultati po završetku ispita"
+            />
           </div>
         </div>
 
@@ -108,5 +131,34 @@ function Info({
       </p>
       <p className="mt-1 font-bebas text-2xl text-white-500">{value}</p>
     </div>
+  );
+}
+
+function ModeButton({
+  active,
+  onClick,
+  label,
+  hint,
+}: {
+  active: boolean;
+  onClick: () => void;
+  label: string;
+  hint: string;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      className={
+        "px-4 py-2 rounded text-left transition-colors " +
+        (active
+          ? "bg-green-500 text-black-500"
+          : "text-white-300 hover:text-white-500")
+      }
+    >
+      <span className="block font-bebas text-lg uppercase">{label}</span>
+      <span className="block text-xs opacity-80">{hint}</span>
+    </button>
   );
 }

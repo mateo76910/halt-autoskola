@@ -13,9 +13,15 @@ import {
   saveAttemptLocal,
 } from "@/lib/quiz";
 import { persistAttempt } from "@/lib/supabase/attempts";
-import type { Exam, UserAnswer } from "@/types/exam";
+import type { Exam, UserAnswer, ValidationMode } from "@/types/exam";
 
-export function QuizRunner({ exam }: { exam: Exam }) {
+export function QuizRunner({
+  exam,
+  validationModeOverride,
+}: {
+  exam: Exam;
+  validationModeOverride?: ValidationMode;
+}) {
   const router = useRouter();
   const [startedAt] = useState(() => new Date());
   const [index, setIndex] = useState(0);
@@ -26,7 +32,8 @@ export function QuizRunner({ exam }: { exam: Exam }) {
 
   const question = exam.questions[index];
   const answer = answers[index];
-  const isInstant = exam.validationMode === "instant";
+  const validationMode = validationModeOverride ?? exam.validationMode;
+  const isInstant = validationMode === "instant";
   const revealed = isInstant && revealedSet.has(index);
   const totalProgress = useMemo(
     () => answers.filter((a) => a.answered).length,
